@@ -18,18 +18,28 @@ ul{
     height: 70px;
 }
 
-.mainButton{
-    background-color: green;
-    color: white;
+.button{
     border: 0px;
     padding: 5px 10px;
     border-radius: 10px;
     font-weight: bolder;
-    box-shadow: 1px 1px green ;
 }
 
-.mainButton:hover{
+.button:hover{
     cursor: pointer;
-    box-shadow: 1px 1px green;
     transform: scale(1,1);
+}
+
+.mainButton{
+    background-color: green;
+    color: white;
+}
+
+.secundaryButton{
+    background-color: rgb(0, 30, 128);
+    color: white;
+}
+
+.secundaryButton:hover{
+    box-shadow: 1px 1px rgb(137, 118, 223);
 }
